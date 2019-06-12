@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/Student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/student"
+            android:textColor="#222222"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/parul_institute_of_engineering"
+            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="@string/downloader_Web_hunting_data_collector_of_computer_knowledge_part_time"
+            android:layout_gravity="left"
+            android:textColor="#222222"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/india"
+            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="@string/jobs_will_upload_soon_still_studying"
+            android:layout_gravity="center"
+            android:textColor="#cc1111"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+</LinearLayout>

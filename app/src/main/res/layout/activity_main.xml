@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:id="@+id/profilePhoto"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/akshay_pritmani_small"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+        />
+
+        <TextView
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Akshay Pritmani"
+                android:layout_gravity="center"
+                android:textColor="#222222"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/profilePhoto"/>
+        <TextView
+                android:id="@+id/EmailId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="akshayprimani20@gmail.com"
+                android:layout_gravity="center"
+                android:textColor="#555555"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/profilePhoto"
+                android:layout_below="@+id/Name"/>
+        <TextView
+                android:id="@+id/ContactNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9974267984"
+                android:layout_gravity="center"
+                android:textColor="#555555"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:layout_toRightOf="@id/profilePhoto"
+                android:layout_below="@+id/EmailId"/>
+
+    </RelativeLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <Button
+                android:id="@+id/eduButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Education"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="8dp"/>
+        <Button
+                android:id="@+id/workButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Skills"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorPrimary"/>
+    </LinearLayout>
+</LinearLayout>

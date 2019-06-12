@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Secondary Cerificate School"
+            android:textColor="#222222"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shree Vivekanand English HighSchool"
+            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2014)"
+            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Higher Secondary Certificate"
+            android:layout_gravity="left"
+            android:textColor="#222222"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shree Amrut Higher Secondary School"
+            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textStyle="bold"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2015-2016)"
+            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Bachelors in Computer Enginnering"
+            android:layout_gravity="left"
+            android:textColor="#222222"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parul Institute of Technology"
+            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2016-2020)"
+            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+
+
+</LinearLayout>
